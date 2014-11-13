@@ -22,6 +22,15 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="box" translatesAutoresizingMaskIntoConstraints="NO" id="IDy-tw-8Mf">
+                                <rect key="frame" x="141" y="123" width="99" height="82"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="box2" translatesAutoresizingMaskIntoConstraints="NO" id="bCj-o0-Pdh">
+                                <rect key="frame" x="210" y="239" width="99" height="82"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="new1" translatesAutoresizingMaskIntoConstraints="NO" id="e3g-9H-Tv9">
+                                <rect key="frame" x="377" y="178" width="59" height="51"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -32,5 +41,8 @@
     </scenes>
     <resources>
         <image name="Search" width="53" height="53"/>
+        <image name="box" width="99" height="82"/>
+        <image name="box2" width="99" height="82"/>
+        <image name="new1" width="59" height="51"/>
     </resources>
 </document>
