@@ -220,7 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/zsh;
-			shellScript = "sh dcodetools/icongenerator.sh";
+			shellScript = "sh dcodetools/sketch/icongenerator.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -424,6 +424,7 @@
 				8A225EEC1A1056320079B716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A225EED1A1056320079B716 /* Build configuration list for PBXNativeTarget "SketchtoolDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +433,7 @@
 				8A225EEF1A1056320079B716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
