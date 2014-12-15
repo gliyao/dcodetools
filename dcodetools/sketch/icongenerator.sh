@@ -75,10 +75,6 @@ function exportAppIcon()
 	cp -p "$APP_ICON" "pad76@2x.png"
 	sips -Z 152 "pad76@2x.png"
 
-	# carPlay
-	cp -p "$APP_ICON" "car120.png"
-	sips -Z 120 "car120.png"
-
 cat << EOF > Contents.json
 {
   "images" : [
@@ -195,12 +191,6 @@ cat << EOF > Contents.json
       "idiom" : "ipad",
       "filename" : "pad76@2x.png",
       "scale" : "2x"
-    },
-    {
-      "size" : "120x120",
-      "idiom" : "car",
-      "filename" : "car120.png",
-      "scale" : "1x"
     }
   ],
   "info" : {
