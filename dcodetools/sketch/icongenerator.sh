@@ -1,3 +1,7 @@
+if [ "$PROJECT_DIR" == "" ]
+then
+    PROJECT_DIR=`pwd`
+fi
 
 SKETCH_DIR="$PROJECT_DIR"/"dcodetools"/"sketch"
 IMAGES_ASSETS_DIR="$PROJECT_DIR"/"$PROJECT_NAME"/"Images.xcassets"
