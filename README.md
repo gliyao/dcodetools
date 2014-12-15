@@ -6,9 +6,9 @@ Automatically exporting assets(App icon and icons) from sketch into xcode.
 3. Sektch assets for App icon and icons
 4. Add run script phase at Build Phases
 
-```
-sh dcodetools/sketch/icongenerator.sh
-```
+	```
+	sh dcodetools/sketch/icongenerator.sh
+	```
 5. Run your XCode
 
 
